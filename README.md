@@ -74,7 +74,14 @@ jq is a json command-line json processor which helps querying (it also transform
     ```
 
   * Download and extract oniguruma and jq sources
-
+    
+    ```
+    curl -L https://github.com/kkos/oniguruma/releases/download/v5.9.6_p1/onig-5.9.6_p1.tar.gz -o ./onig-5.9.6_p1.tar.gz
+    curl -L https://github.com/stedolan/jq/releases/download/jq-1.5/jq-1.5.tar.gz -o jq-1.5.tar.gz
+    tar -xvzf ./onig-5.9.6_p1.tar.gz
+    tar -xvzf ./jq-1.5.tar.gz
+    ```
+    
   * Install oniguruma
   
     ```  
