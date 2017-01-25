@@ -1,6 +1,13 @@
 # azuredeploy.sh
 
 This script is an end to end example on how to make deployments on Azure using Azure CLI 2.0 on top of bash. It's counterpart for comparison based on PowerShell can be found at https://gallery.technet.microsoft.com/Azure-Resource-Manager-6514f9ca?redir=0. 
+It deploys the following components:
+* 1 x Resource Group 
+* 1 x Storage Account 
+* 2 x Virtual Networks  
+* 1 x Network Security Group 
+* 2 x Linux Virtual Machines, one in each virtual network 
+
 
 This script requires JQ installed on Linux and Azure CLI 2.0.
 
