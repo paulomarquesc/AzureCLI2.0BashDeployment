@@ -72,6 +72,7 @@ jq is a json command-line json processor which helps querying (it also transform
     ```
     sudo apt-get install build-essential libtool autoconf gcc –y
     ```
+
   * Download and extract oniguruma and jq sources
 
     ```
@@ -100,11 +101,3 @@ jq is a json command-line json processor which helps querying (it also transform
   ```
   sudo apt-get install jq -y
   ```
-
-
-
-
-
-
-
-
