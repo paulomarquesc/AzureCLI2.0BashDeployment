@@ -108,3 +108,5 @@ Script syntax:
 ```
 ./azuredeploy.sh -s <subscription name> -r <resource group name> -l <location>
 ```
+
+For more information on jq, please refer to https://stedolan.github.io/jq/.
