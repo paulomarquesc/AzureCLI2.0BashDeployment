@@ -101,3 +101,10 @@ jq is a json command-line json processor which helps querying (it also transform
   ```
   sudo apt-get install jq -y
   ```
+
+## Running the script
+Script syntax:
+
+```
+./azuredeploy.sh -s <subscription name> -r <resource group name> -l <location>
+```
