@@ -102,6 +102,8 @@ jq is a json command-line json processor which helps querying (it also transform
   sudo apt-get install jq -y
   ```
 
+For more information on jq, please refer to https://stedolan.github.io/jq/.
+
 ## Running the script
 Script syntax:
 
@@ -109,4 +111,3 @@ Script syntax:
 ./azuredeploy.sh -s <subscription name> -r <resource group name> -l <location>
 ```
 
-For more information on jq, please refer to https://stedolan.github.io/jq/.
